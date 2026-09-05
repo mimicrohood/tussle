@@ -1,0 +1,175 @@
+:root {
+  --tussle-bg: #a8c566;
+  --tussle-ink: #243a18;
+}
+
+body {
+  --token-81dd0d94-25e6-4a1f-8ef0-59d3e73384ce: var(--tussle-ink) !important;
+  --token-e5955294-5b3d-4232-adf5-7ac425cb379c: var(--tussle-ink) !important;
+  --token-046fd1ba-2103-448e-a4a7-33d12e74a816: var(--tussle-ink) !important;
+  --token-e458d879-b4c4-47dc-8e1c-8c7df7787874: var(--tussle-bg) !important;
+  --token-311bc108-9f53-417e-a30a-208003fd35a9: var(--tussle-bg) !important;
+  --token-7dfaa64e-6825-43f1-8ab9-a31544e6047f: var(--tussle-bg) !important;
+  --token-2434467d-df7d-41b1-af01-ec92fa3a9cb9: var(--tussle-ink) !important;
+  --token-0f0e1eb3-b83b-45cc-b719-ba104741d057: var(--tussle-ink) !important;
+  --token-1a1b5f59-87df-4be6-9d01-2a7a39e1ed03: var(--tussle-ink) !important;
+  --token-f5aac5aa-d58f-4b8d-b949-ecf179c3c4cb: var(--tussle-ink) !important;
+  --token-56241acf-ecd0-4ed3-9d41-75d6a3dd2584: var(--tussle-ink) !important;
+  --token-2591962b-8a1b-4b02-a015-f0774b8c61d5: var(--tussle-ink) !important;
+  --token-92b3edf9-e73a-4410-b843-210ac0e906b1: var(--tussle-ink) !important;
+  --token-feb957fb-05e4-4f20-9944-fb2d417461be: rgb(36 58 24 / 10%) !important;
+  --token-6ef79fa1-e1f2-4de5-875e-51ead3dbb682: var(--tussle-ink) !important;
+  --token-5d368e24-cba2-49f9-af93-ef85e5cb7c4c: var(--tussle-ink) !important;
+  --token-75acf48a-c275-4567-9f42-b9ef5d0a29a5: var(--tussle-ink) !important;
+  --token-8acaca2b-fb9f-4df7-bf36-dccccd7c497e: var(--tussle-ink) !important;
+  --token-1b7049f0-88a0-4a5c-9b74-64be3cda0c25: var(--tussle-ink) !important;
+  background: var(--tussle-bg) !important;
+  color: var(--tussle-ink);
+  color-scheme: light;
+}
+
+#main,
+[data-framer-root],
+[data-framer-component-type="Page"] {
+  background-color: var(--tussle-bg) !important;
+}
+
+::selection {
+  color: var(--tussle-bg);
+  background: var(--tussle-ink);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: var(--tussle-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  border: 2px solid var(--tussle-bg);
+  border-radius: 999px;
+  background: var(--tussle-ink);
+}
+
+a,
+button {
+  --framer-link-text-color: var(--tussle-ink);
+  --framer-link-hover-text-color: var(--tussle-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--tussle-ink);
+  outline-offset: 3px;
+}
+
+/* Recolor the inherited ray illustration into Tussle ink. */
+canvas,
+img[src*="lRs2AKroIHcUaIrtbMs5sE71j8"] {
+  filter: brightness(0) saturate(100%) invert(21%) sepia(28%) saturate(1510%) hue-rotate(55deg) brightness(82%) contrast(105%) !important;
+}
+
+/* Refinements: preserve the logo's softer background and readable hierarchy. */
+body {
+  background:
+    radial-gradient(circle at 50% 32%, #b4cf76 0%, #a8c566 48%, #9db85d 100%)
+    fixed !important;
+}
+
+#main,
+#main > div,
+[data-framer-root],
+[data-framer-component-type="Page"] {
+  background-color: transparent !important;
+}
+
+header[data-framer-name="Header"],
+[data-framer-name="Footer Bar"] {
+  background-color: rgb(168 197 102 / 84%) !important;
+  border-color: rgb(36 58 24 / 34%) !important;
+  backdrop-filter: blur(18px);
+}
+
+.framer-V3Zx1[data-framer-name="Default"][data-border="true"] {
+  background: color-mix(in srgb, var(--tussle-bg) 89%, white) !important;
+  border-color: rgb(36 58 24 / 24%) !important;
+  box-shadow: 0 14px 34px rgb(36 58 24 / 7%);
+}
+
+.framer-V3Zx1 [data-framer-name="Background"] {
+  background-color: rgb(36 58 24 / 7%) !important;
+  opacity: 1 !important;
+}
+
+.framer-V3Zx1 [data-framer-name="Name"],
+.framer-V3Zx1 [data-framer-name="Name"] .framer-text {
+  --framer-text-color: var(--tussle-ink) !important;
+  color: var(--tussle-ink) !important;
+}
+
+.framer-V3Zx1 [data-framer-name="Without Icon"] {
+  background-color: var(--tussle-ink) !important;
+  border-color: var(--tussle-ink) !important;
+  box-shadow: none !important;
+}
+
+.framer-V3Zx1 [data-framer-name="Without Icon"] .framer-text {
+  --framer-text-color: var(--tussle-bg) !important;
+  color: var(--tussle-bg) !important;
+}
+
+canvas,
+img[src*="lRs2AKroIHcUaIrtbMs5sE71j8"] {
+  filter: hue-rotate(-105deg) saturate(65%) brightness(48%) contrast(118%) !important;
+}
+
+/* Site-wide consistency: remove inherited dark/nav and legacy accent colors. */
+header {
+  background-color: rgb(168 197 102 / 84%) !important;
+  border-color: rgb(36 58 24 / 34%) !important;
+  color: var(--tussle-ink) !important;
+  backdrop-filter: blur(18px);
+}
+
+a {
+  color: var(--tussle-ink) !important;
+}
+
+header svg,
+footer svg {
+  color: var(--tussle-ink) !important;
+}
+
+[data-framer-name="Information"] h1,
+.framer-hEkTM [data-framer-name="Name"],
+.framer-hEkTM [data-framer-name="Name"] .framer-text {
+  --framer-text-color: var(--tussle-ink) !important;
+  color: var(--tussle-ink) !important;
+}
+
+.framer-hEkTM[data-framer-name="Default"] {
+  background-color: rgb(36 58 24 / 9%) !important;
+  border-color: rgb(36 58 24 / 22%) !important;
+}
+/* Tussle technical note typography */
+.tussle-article-copy{display:flex;flex-direction:column;gap:22px;width:100%;font-family:"JetlizHartduino Mono","JetBrains Mono",monospace;color:var(--tussle-ink)}
+.tussle-article-copy h2{font:500 clamp(20px,2.3vw,30px)/1.25 "JetBrains Mono",monospace;letter-spacing:-.035em;margin-top:20px}
+.tussle-article-copy p,.tussle-article-copy li{font:400 15px/1.75 "JetBrains Mono",monospace}
+.tussle-article-copy ul{display:grid;gap:10px;margin:0;padding-left:22px}
+.tussle-article-copy pre,.tussle-equation{white-space:pre-wrap;overflow-wrap:anywhere;margin:4px 0;padding:18px 20px;border:1px solid rgb(36 58 24 / 28%);border-radius:8px;background:rgb(255 255 255 / 18%);font:400 14px/1.55 "JetBrains Mono",monospace}
+@media(max-width:809.98px){.tussle-article-copy{gap:18px}.tussle-article-copy p,.tussle-article-copy li{font-size:13px}.tussle-article-copy pre,.tussle-equation{padding:14px;font-size:12px}}
+/* Keep the static Framer mirror fully visible without hydration. */
+[data-framer-appear-id]{opacity:1!important;transform:none!important}
+[data-code-component-plugin-id="84d4c1"] pre{letter-spacing:0!important;line-height:1.05!important;font-weight:700!important}
+.framer-DevK7 canvas{display:none!important}
+.framer-DevK7 img{content:url('/tussle-logo.png')!important;object-fit:contain!important;filter:none!important}
+
+/* Readable Tussle ASCII wordmark */
+[data-code-component-plugin-id="84d4c1"] pre{font-size:18px!important;line-height:1.08!important;letter-spacing:0!important;overflow:visible!important}
+@media(max-width:1199.98px){[data-code-component-plugin-id="84d4c1"] pre{font-size:15px!important}}
+@media(max-width:809.98px){[data-code-component-plugin-id="84d4c1"] pre{font-size:11px!important}}
+
+/* Center the two Archive action labels. */
+.framer-habeaj-container > a,.framer-70k01z-container > a{justify-content:center!important;align-items:center!important;text-align:center!important}
+.framer-habeaj-container > a svg,.framer-70k01z-container > a svg{display:none!important}
+.framer-habeaj-container .framer-qmxsil,.framer-70k01z-container .framer-qmxsil{width:100%!important;text-align:center!important}
+.framer-habeaj-container .framer-qmxsil p,.framer-70k01z-container .framer-qmxsil p{text-align:center!important;width:100%!important}
